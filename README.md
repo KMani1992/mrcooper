@@ -1,5 +1,5 @@
-# mrcooper
-My Portfolio
+# mrcooper - gitrepo details storing app
+
 
 Problem Scenario Summary
 =======================
