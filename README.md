@@ -6,11 +6,18 @@ Problem Scenario Summary
 1.Build the system to retrive a specific user's git public repos and store into the local application database.
 
 
+Tools Used
+-----------
+1.Java 8
+2.Spring Tool Suite (STS) 3.8.3.RELEASE IDE for backend devlopement
+3.Angular 2.0
+3.Visual Studio Code IDE Version 1.11.1 for front end development
+
 Technology Stack Used
 ======================
 1.Java & Spring boot (Core)
 2.Rest Web services (API)
-3.Apache Derby (Storage)
+3.Apache Derby (Embedded DB Storage)
 4.Angular 2.0 (Front End - JS FW)
 5.Material Design (GUI Components)
 
