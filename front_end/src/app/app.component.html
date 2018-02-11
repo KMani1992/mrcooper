@@ -1,0 +1,22 @@
+<div class="center">
+  <mat-card>
+    <h2 class="titleAllign"> 
+      {{title}}
+    </h2>
+   
+    <mat-form-field class="repoNameInput"  >
+      <input (ngModelChange)="clearMsg()"  matInput type="text" placeholder="Enter Repository Name" [(ngModel)]="repoName"/>
+      <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+    
+    <div class="saveBtnRow">
+      <button class="btnStyle" mat-raised-button color="primary" (click)="storeRepoData()" >Store</button>
+      <a mat-raised-button class="btnStyle" href="{{viewAllRepoURL}}" target="_blank" >View All</a>
+    </div>
+    <br/>
+    <div class="full-width alert alert-danger" *ngIf="errorMessage">{{errorMessage}}</div>
+    <div class="full-width alert alert-info" *ngIf="infoMessage">{{infoMessage}}</div>
+  </mat-card>
+</div>

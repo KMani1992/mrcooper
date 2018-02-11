@@ -1,0 +1,27 @@
+.titleAllign{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 35px;
+}
+.center {
+    margin: auto;
+    width: 50%;    
+    padding: 10px;
+}
+
+.repoNameInput {
+  width: 90%;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.saveBtnRow {
+  align-items: center; 
+  justify-content: space-around;
+  width: 100%; 
+}
+
+.btnStyle{
+  font: 14px;
+  font-weight: bold;
+}
