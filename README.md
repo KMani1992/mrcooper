@@ -1,4 +1,4 @@
-# mrcooper - gitrepo details storing app
+# mrcooper - program
 
 
 Problem Scenario Summary
