@@ -40,7 +40,7 @@ grpUsrRepoDetList = grpRespAssembler.assembleUserRpoDet(grpUserDet, grpResDetLis
 saveGrpDet(grpUsrRepoDetList);
 
 Highlights
-:::::::::::
+----------
 1.Used Composite Key to store the user repo details. it will avoid data duplication based on the userName and repoName
 2.Industry Standard Data flow sequence used. using this can edtend the code easily.
 3.Componets are seperated so this code can be easily testable and maintainable
