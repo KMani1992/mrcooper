@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Feb 11 22:51:06 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0161-85e2-75d9-0000084427e0 
+on database directory memory:/home/mani/Documents/works/mrcooper/back_end/bin/testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@af3868 
+Loaded from jar:file:/home/mani/Documents/works/mrcooper/back_end/bin/gitrepodownload-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.13.1.1.jar!/
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=/home/mani/Documents/works/mrcooper/back_end/bin
+os.name=Linux
+os.arch=i386
+os.version=3.13.0-113-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
